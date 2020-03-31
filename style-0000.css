@@ -9,3 +9,12 @@ main h2 {
     padding: 0.5rem;
     border-radius: 0.25rem;
 }
+
+main img {
+    max-width: 100%;
+}
+
+/* Ensures multicol avoids column-breaking within figures */
+main figure {
+    break-inside: avoid;
+}
