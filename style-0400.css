@@ -3,3 +3,8 @@ main {
     column-gap: 1rem;
     margin: 2rem;
 }
+
+
+main h2 {
+    border-radius: 0.5rem;
+}
