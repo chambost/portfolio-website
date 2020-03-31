@@ -1,0 +1,11 @@
+main {
+    margin: 1rem;
+}
+
+main h2 {
+    column-span: all;
+    background-color: grey;
+    color: white;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
+}

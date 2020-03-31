@@ -1,0 +1,9 @@
+main {
+    column-count: 4;
+    column-gap: 3rem;
+    margin: 4rem;
+}
+
+main h2 {
+    border-radius: 1rem;
+}
