@@ -1,5 +1,5 @@
 @import url("style-0000.css");
-@import url("style-0400.css") all and (min-width:  400px) and (max-width:  799px);
-@import url("style-0800.css") all and (min-width:  800px) and (max-width: 1599px);
+@import url("style-0450.css") all and (min-width:  450px);
+@import url("style-0800.css") all and (min-width:  800px);
 @import url("style-1600.css") all and (min-width: 1600px);
 
