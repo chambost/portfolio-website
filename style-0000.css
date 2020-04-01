@@ -1,3 +1,24 @@
+body {
+    margin: 0;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    list-style: none;
+}
+
+nav h1 {
+    display: inline-block;
+}
+
+header, header a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+}
+
 main {
     margin: 1rem;
 }
@@ -8,4 +29,13 @@ main h2 {
     color: white;
     padding: 0.5rem;
     border-radius: 0.25rem;
+}
+
+main img {
+    max-width: 100%;
+}
+
+/* Ensures multicol avoids column-breaking within figures */
+main figure {
+    break-inside: avoid;
 }
