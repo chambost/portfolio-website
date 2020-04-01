@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+.fab {
+    font-size: 1.5rem;
+}
+
 nav ul {
     display: flex;
     justify-content: space-evenly;
