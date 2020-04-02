@@ -29,13 +29,13 @@ nav h1 {
 }
 
 header {
-    background-color: black;
+    background-color: #804020;
     color: white;
 }
 
 .current-page {
     background-color: white;
-    color: black;
+    color: #804020;
     padding: 0.375rem;
     border-radius: 0.825rem;
 }
@@ -51,7 +51,7 @@ main {
 
 h2 {
     column-span: all;
-    background-color: grey;
+    background-color: #cc6633;
     color: white;
     padding: 0.5rem;
     border-radius: 0.25rem;
@@ -107,7 +107,7 @@ section ul li i {
 .splash > p {
     display: flex;
     color: white;
-    text-shadow: 0px 0px 1rem orange;
+    text-shadow: 0px 0px 1rem #ff8040;
     justify-content: center;
     font-size: 2.5rem;
 }
