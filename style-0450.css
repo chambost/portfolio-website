@@ -12,3 +12,8 @@ main {
 main h2 {
     border-radius: 0.5rem;
 }
+
+/* Glowing name home screen component */
+.splash > p {
+    font-size: 4rem;
+}

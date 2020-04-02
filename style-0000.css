@@ -93,3 +93,21 @@ section ul {
 section ul li i {
     padding: 0.5rem;
 }
+
+/* Home screen splash component */
+.splash {
+    background-image: url("irvan-smith-5eBW5GomfhY-unsplash.jpg"); /* Photo by Irvan Smith on Unsplash */
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Glowing name home screen component */
+.splash > p {
+    display: flex;
+    color: white;
+    text-shadow: 0px 0px 1rem orange;
+    justify-content: center;
+    font-size: 2.5rem;
+}
