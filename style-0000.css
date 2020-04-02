@@ -71,12 +71,15 @@ form {
     column-count: 1;
     display: grid;
     grid-template-columns: 1fr 2fr;
-    height: 300px;
 }
 
 form label {
     text-align: right;
     padding: 1rem;
+}
+
+form button {
+    grid-column: auto / span 2;
 }
 
 section {
