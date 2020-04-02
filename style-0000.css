@@ -28,10 +28,9 @@ nav h1 {
     display: inline-block;
 }
 
-header, header a {
+header {
     background-color: black;
     color: white;
-    text-decoration: none;
 }
 
 .current-page {
@@ -41,11 +40,16 @@ header, header a {
     border-radius: 0.825rem;
 }
 
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
 main {
     margin: 1rem;
 }
 
-main h2 {
+h2 {
     column-span: all;
     background-color: grey;
     color: white;
@@ -60,4 +64,50 @@ main img {
 /* Ensures multicol avoids column-breaking within figures */
 main figure {
     break-inside: avoid;
+}
+
+/* grid layout for forms */
+form {
+    column-count: 1;
+    display: inline-grid;
+    grid-template-columns: 1fr 2fr;
+}
+
+form label {
+    text-align: right;
+    padding: 1rem;
+}
+
+form button {
+    grid-column: auto / span 2;
+}
+
+section {
+    margin: 1rem;
+}
+
+section ul {
+    list-style: none;
+}
+
+section ul li i {
+    padding: 0.5rem;
+}
+
+/* Home screen splash component */
+.splash {
+    background-image: url("irvan-smith-5eBW5GomfhY-unsplash.jpg"); /* Photo by Irvan Smith on Unsplash */
+    height: 100vh; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* Glowing name home screen component */
+.splash > p {
+    display: flex;
+    color: white;
+    text-shadow: 0px 0px 1rem orange;
+    justify-content: center;
+    font-size: 2.5rem;
 }

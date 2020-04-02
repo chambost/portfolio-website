@@ -7,3 +7,7 @@ main {
 main h2 {
     border-radius: 1rem;
 }
+
+.splash > p {
+    font-size: 8rem;
+}
