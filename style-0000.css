@@ -85,3 +85,11 @@ form button {
 section {
     margin: 1rem;
 }
+
+section ul {
+    list-style: none;
+}
+
+section ul li i {
+    padding: 0.5rem;
+}
