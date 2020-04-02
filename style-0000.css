@@ -69,7 +69,7 @@ main figure {
 /* grid layout for forms */
 form {
     column-count: 1;
-    display: grid;
+    display: inline-grid;
     grid-template-columns: 1fr 2fr;
 }
 
